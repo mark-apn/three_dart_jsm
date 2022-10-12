@@ -2,6 +2,7 @@ name: three_dart_jsm
 description: three.js example/jsm rewrite by Dart. for three_dart Dart 3D library. an easy to use, lightweight, cross-platform, general purpose 3D library. 
 version: 0.0.8
 homepage: https://github.com/wasabia/three_dart_jsm
+publish_to: "none"
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
@@ -10,21 +11,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  three_dart: ^0.0.14
+  three_dart: 
+    git: git@github.com:wasabia/three_dart.git
   flutter_gl: ^0.0.20
   typr_dart: ^0.0.2
   opentype_dart: ^0.0.1
   universal_html: ^2.0.8
   image: ^3.1.1
   archive: ^3.3.0
-  # flutter_webgpu:
-  #   path: ../../flutter_webgpu
-
-# dependency_overrides:
-#   flutter_gl:
-#     path: ../../flutter_gl/flutter_gl
-#   three_dart:
-#     path: ../../three_dart
 
 
 dev_dependencies:
