@@ -286,7 +286,7 @@ packages:
       path: "."
       ref: HEAD
       resolved-ref: "91f176dfd1d6a547592c0f0f03909c275b4e98eb"
-      url: "git@github.com:wasabia/three_dart.git"
+      url: "https://github.com/wasabia/three_dart.git"
     source: git
     version: "0.0.14"
   three_dart_jsm:
