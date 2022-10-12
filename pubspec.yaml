@@ -12,7 +12,7 @@ dependencies:
   flutter:
     sdk: flutter
   three_dart: 
-    git: https://github.com/wasabia/three_dart.git
+    git: https://github.com/mark-apn/three_dart.git
   flutter_gl: ^0.0.20
   typr_dart: ^0.0.2
   opentype_dart: ^0.0.1
